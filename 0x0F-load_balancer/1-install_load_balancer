@@ -10,10 +10,10 @@ apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  ubuntu-frontend
+frontend  Victor-frontend
         bind *:80
         mode http
-        default_backend yonas-backend
+        default_backend Victor-backend
 backend ubuntu-backend
         balance roundrobin
         server 203001-web-01 100.25.19.204:80 check
