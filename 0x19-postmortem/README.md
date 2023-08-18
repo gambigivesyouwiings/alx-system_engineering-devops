@@ -1,6 +1,6 @@
 # Postmortem
 
-![Flogging a dead horse](post-mortem-meetings.jpg)
+![Sleeping doesn't make the problems go away](post-mortem-meetings.jpg)
 
 ## Issue Summary
 
